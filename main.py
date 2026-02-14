@@ -325,7 +325,6 @@ def main() -> None:
     args.preview_scale = 6
     args.output_dir = "outputs"
     args.camera = 0
-    args.mode = "live"
 
     output_dir = args.output_dir
     if not os.path.isabs(output_dir):
